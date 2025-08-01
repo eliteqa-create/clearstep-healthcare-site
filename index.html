@@ -5,30 +5,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ClearStep Healthcare</title>
+    <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>ClearStep Healthcare</h1>
-    <p>Modern Foot Health & Ear Wax Removal Services</p>
-    <button>Book an Appointment</button>
-    <section id="services">
+    <header>
+        <h1>ClearStep Healthcare</h1>
+        <p>Modern Foot Health & Ear Wax Removal Services</p>
+        <a href="#"><button>Book an Appointment</button></a>
+    </header>
+
+    <section class="services">
         <h2>Our Services</h2>
-        <ul>
-            <li>Foot Health Care</li>
-            <li>Ear Wax Removal</li>
-            <li>Plasma Fibroblast</li>
-        </ul>
+        <div class="card">Foot Health Care</div>
+        <div class="card">Ear Wax Removal</div>
+        <div class="card">Plasma Fibroblast</div>
     </section>
-    <section id="testimonials">
+
+    <section class="video">
+        <h2>See How It Works</h2>
+        <video controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+    </section>
+
+    <section class="testimonials">
         <h2>What Our Clients Say</h2>
         <p>“Fantastic service from Steph!”</p>
     </section>
-    <section id="map">
+
+    <section class="map">
         <h2>Find Us</h2>
-        <p>Google Map Placeholder</p>
+        <iframe src="https://maps.google.com/maps?q=london&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
     </section>
-    <section id="chat">
+
+    <section class="chat">
         <h2>Live Chat</h2>
         <p>Live Chat Placeholder</p>
     </section>
+
+    <footer>
+        <p>&copy; 2025 ClearStep Healthcare</p>
+    </footer>
 </body>
 </html>
